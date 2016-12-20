@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		666FB7891E0993EE00E5C27E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 666FB7881E0993EE00E5C27E /* .gitignore */; };
 		66CBFB8F1E018839002CF903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBFB8E1E018839002CF903 /* AppDelegate.swift */; };
 		66CBFB911E018839002CF903 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CBFB901E018839002CF903 /* ViewController.swift */; };
 		66CBFB941E018839002CF903 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66CBFB921E018839002CF903 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		666FB7881E0993EE00E5C27E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		66CBFB8B1E018839002CF903 /* TrainingLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrainingLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66CBFB8E1E018839002CF903 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66CBFB901E018839002CF903 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 		66CBFB821E018838002CF903 = {
 			isa = PBXGroup;
 			children = (
+				666FB7881E0993EE00E5C27E /* .gitignore */,
 				66CBFB8D1E018839002CF903 /* TrainingLogin */,
 				66CBFB8C1E018839002CF903 /* Products */,
 			);
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				666FB7891E0993EE00E5C27E /* .gitignore in Resources */,
 				66CBFB991E018839002CF903 /* LaunchScreen.storyboard in Resources */,
 				66CBFB961E018839002CF903 /* Assets.xcassets in Resources */,
 				66CBFB941E018839002CF903 /* Main.storyboard in Resources */,
@@ -261,6 +265,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Q34S3F32N;
 				INFOPLIST_FILE = TrainingLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anhtran.TrainingLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7Q34S3F32N;
 				INFOPLIST_FILE = TrainingLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anhtran.TrainingLogin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +306,7 @@
 				66CBFB9F1E018839002CF903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
